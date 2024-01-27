@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="catalog.device.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link>
+    <href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<div class="container_osnova">
+ <!-- ЛОГОТИП -->
+<div class="nav">
+    <div class="logo_device">DEVICE</div>
+</div>
+
+<!-- ПОШУК -->
+<div class="search_form">
+    <form action="" class="search_bar">
+        <img src="imag/search.png" class="img_search">
+        <input type="text" placeholder="Пошук на сайті" name="search">
+        <button type="submit" class="posh">Найти</button>
+        <div class="tere"></div>
+    </form>
+</div>
+
+<!-- ГОЛОВНЕ меню -->
+<ul class="menu">
+    <li><a href="#" class="menu_user"><img src="imag/user.png" class="menu-image_user">Владислав Чекайло</a></li>
+    <li><a href="#" class="menu_stat"><img src="imag/stat.png" class="menu-image_stat">Порівняти</a></li>
+    <li><a href="#" class="menu_back"><img src="imag/back.png" class="menu-image_back">Корзина</a></li>
+</ul>
+
+<!-- ВЕРХНЄ меню -->
+<ul class="menu_header">
+    <li><a href="#" class="header_deliveri">ДОСТАВКА</a></li>
+    <li><a href="#" class="header_garant">ГАРАНТІЯ</a></li>
+    <li><a href="#" class="header_contact">КОНТАКТИ</a></li>
+</ul>
+
+<!-- КАТАЛОГ товарів-->
+<div class="navs">
+    <a href="#" class="drop">КАТАЛОГ ТОВАРІВ<span class="plus">+</span><a>
+    <ul class="drop-down">
+        <li><a href="#">Віртуальна реальність</a></li>
+        <li><a href="#">Фітнес-браслети</a></li>
+        <li><a href="#">Квадрокоптери</a></li>
+        <li><a href="#">Моноподи для селфі</a></li>
+        <li><a href="#">Розумні годинники</a></li>
+        <li><a href="#">Екшен-камери</a></li>
+    </ul>
+    <p class="monopod">Моноподи для селфі</p>
+    <p class="catalog_menu"> Головна > Каталог товарів > Моноподи для селфі</p>
+</div>
+</div>
+
+<!-- МЕНЮ -->
+<div class="container_menu">
+<p class="filter">ФІЛЬТР:</p>
+<div class="line_filter-one"></div>
+<p class="price">Вартість</p>
+<!-- СЛАЙДЕР ПОЛЗУНОК -->
+<div class="container_slider">
+    <div class="slider_circle"></div>
+    <div class="slider_circle-one"></div>
+    <div class="slide_line"></div>
+</div>
+<div class="price_menu">
+    <label class="vid_label" for="price">ВІД</label>
+    <input class="vid_input" type="number" name="quantity" min="0" max="5000">
+    <label class="do_label" for="op">ДО</label>
+    <input class="do_input" type="number" name="quantity" min="0" max="5000">
+</div>
+<!-- ЧЕКБОКС -->
+<div class="line_color"></div>
+     <p class="color">Кольори</p>
+<div class="color_menu">
+   <div class="checkbox_rap">
+        <label>
+         <input type="checkbox" name="black" class="real-checkbox">
+         <span class="custom-checkbox"></span>
+         Чорний
+        </label>
+    </div>
+    <div class="checkbox_rap">
+        <label>
+         <input type="checkbox" name="white" class="real-checkbox">
+         <span class="custom-checkbox"></span>
+         Білий
+        </label>
+    </div>
+    <div class="checkbox_rap">
+         <label>
+         <input type="checkbox" name="blue" class="real-checkbox">
+         <span class="custom-checkbox"></span>
+         Синій
+        </label>
+    </div>
+    <div class="checkbox_rap">
+        <label>
+         <input type="checkbox" name="red" class="real-checkbox">
+         <span class="custom-checkbox"></span>
+         Червоний
+        </label>
+    </div>
+    <div class="checkbox_rap">
+        <label>
+         <input type="checkbox" name="pink" class="real-checkbox">
+         <span class="custom-checkbox"></span>
+         Розовий
+        </label>
+    </div>
+</div>
+
+<!-- РАІОКНОПКА -->
+<div class="line_bluetooth"></div>
+<p class="bluetooth">Bluetooth</p>
+<div class="bluetooth_menu">
+    <div class="radio">
+        <input class="radio_input" name="bluetooth" type="radio" id="radio_one">
+        <label class="radio_label" for="radio_one">Так</label>
+    </div>
+    <div class="radio">
+        <input class="radio_input" name="bluetooth" type="radio" id="radio_two">
+        <label class="radio_label" for="radio_two">Ні</label>
+    </div>
+</div>
+<!-- Кнопка показати -->
+<button class="to_show">ПОКАЗАТИ</button>
+</div>
+
+<!-- МЕНЮ ПОКУПОК -->
+<div class="menu_shop"></div>
+<div class="menu_shop-one"></div>
+<div class="sort_menu">
+  <p class="sort">СОРТУВАТИ:</p>
+</div>
+<div class="popular_menu">
+  <p class="popular">Популярні</p>
+  <img src="/imag/icon.svg">
+</div>
+  <img src="/imag/sort-up_long.svg" class="sort-up_long">
+  <img src="/imag/sort-up_short.svg" class="sort-up_short">
+  
+<!-- МЕНЮ СЛАЙД -->
+<div class="slide_menu">
+    <!-- слайд один -->
+  <div class="slide_professional">
+    <img src="/imag/slide1.png" class="img_slide-professional">
+    <div class="slide_professional-menu">
+      <p class="text_professional">Професійна селфі-палка</p>
+      <p class="money_professional">1500грн</p>
+    </div>
+  </div>
+    <div class="wraper_professional">
+    <button class="button_slide-professional">ДЕТАЛЬНО</button>
+  </div>
+  <!-- слайд два -->
+ <div class="slide_like">
+    <img src="/imag/slide2.png" class="img_slide-like">
+    <div class="slide_like-menu">
+     <p class="text_like">Любительська селфі-палка</p>
+     <p class="money_like">500грн</p>
+    </div>
+ </div>
+ <div class="wraper_like">
+    <button class="button_slide-like">ДЕТАЛЬНО</button>
+ </div>
+ 
+ 
+
+
+
+
+ <!-- слайд три -->
+ <div class="slide_go">
+    <img src="/imag/slide3.png">
+    <div class="slide_go-menu">
+     <p class="text_go">Селфі-палка "Йди за мною"</p>
+     <p class="money_go">1 500грн</p>
+    </div>
+ </div>
+ <div class="wraper_go">
+    <button class="button_slide-go">ДЕТАЛЬНО</button>
+ </div>
+ <!-- слайд чотири -->
+ <div class="slide_woter">
+    <img src="/imag/slide4.png">
+    <div class="slide_woter-menu">
+     <p class="text_woter">Не потопна селфі-палка</p>
+     <p class="money_woter">2 500грн</p>
+    </div>
+ </div>
+ <div class="wraper_woter">
+    <button class="button_slide-woter">ДЕТАЛЬНО</button>
+ </div>
+ <!-- КНОПКА ЗАГРУЗИТИ -->
+ <button class="loading">ЗАГРУЗИТИ ЩЕ</button>
+<!-- номерація сторінок сайту -->
+    <div class="page">
+     <p class="back">НАЗАД</p>
+     <ul class="number_page">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">15</a></li>
+     </ul>
+     <p class="forward">ВПЕРЕД</p>
+    </div>
+</div>
+
+
+<!-- ФУТЕР -->
+<div class="futer">
+    <h class="device_title">DEVICE</h>
+    <div class="address">
+        <p class="address_text">м. Львів, Вул. Стрийська,27</p>
+        <ul class="address_menu">
+            <li><a href="#" class="address_delivery">ДОСТАВКА</a></li>
+            <li><a href="#" class="address_garant">ГАРАНТІЯ</a></li>
+            <li><a href="#" class="address_contact">КОНТАКТИ</a></li>
+        </ul>
+        <p class="address_tel">Тел: +38 (097) 234-45-67</p>
+    </div>
+    <div class="futer_end">
+        <p class="futer_tere"></p>
+        <div class="futer_photo">
+            <img src="/imag/fb.png" class="futer_fb">
+            <img src="/imag/inst.png" class="futer_inst">
+            <img src="/imag/tw.png" class="futer_tw">
+        </div>
+        <img src="/imag/logo_html.png" class="logo_html">
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ВХІД кнопка
+<div class="conteiner_menu">
+<input class="user_input" name="dev" type="radio" id="user_one">
+<label class="user_label user_label_menu" for="user_one">Вхід</label>
+<div class="container">
+<section>
+    <from>
+        <h1>Login</h1>
+        <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" required>
+            <label for="">Email</label>
+        </div>
+        <div class="inputbox">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" required>
+            <label for="">Password</label>
+        </div>
+        <div class="forget">
+            <label for="">
+                <input type="checkbox">Remember Me
+            </label>
+            <a href="#">Forget Password</a>
+        </div>
+        <button>Log In</button>
+        <div class="register">
+            <p>Don't have an Account
+                <a href="#">Register</a>
+            </p>
+        </div>
+    </form>
+</section>
+</div>
+</div> -->
+
+
+
+
+</body>
+</html>
